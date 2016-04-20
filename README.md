@@ -47,4 +47,18 @@ Right-click on that class and select "Ast article: Move Declaration": see the so
     }
 
 
+** Accessing your Java projects with the JDT Java model **
+
+1. Start your plug-in. 
+2. Create a few projects in your new workspace. 
+3. Create a few packages for them and a few Java files. 
+4. Press the new menu entry called _sample command_.
+5. You should see the projects, package and source files listed in the Console view of the calling workbench.
+
+
+
+
 to know more about the AST's code, take a look at [this article](http://www.eclipse.org/articles/Article-JavaCodeManipulation_AST/) about the AST!
+
+
+
