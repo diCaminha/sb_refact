@@ -1,7 +1,7 @@
 # sb_refact
 
 **INSTALLING AND RUNNING THE PLUGIN WITH THE EXAMPLE:** **MOVING LOCAL VARIABLES**
----------------------
+
 
 1. _git clone_ link of the project
 2. on eclipse, _import_ --> _existing projects into workspace_ --> then choose the project
