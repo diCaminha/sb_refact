@@ -33,6 +33,7 @@ Create in your imported project (whatever it is) a package test, with the class:
 Right-click on that class and select "Ast article: Move Declaration": see the source being instantly rewritten as:
 
 {
+    
     package test;
     
     public class Test {
