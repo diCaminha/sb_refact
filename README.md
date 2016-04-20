@@ -47,7 +47,7 @@ Right-click on that class and select "Ast article: Move Declaration": see the so
     }
 
 
-** Accessing your Java projects with the JDT Java model **
+**Accessing your Java projects with the JDT Java model**
 
 1. Start your plug-in. 
 2. Create a few projects in your new workspace. 
