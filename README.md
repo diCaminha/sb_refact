@@ -16,6 +16,7 @@ One last thing: create a Java Unit compilation able to highlights those variable
 
 Create in your imported project (whatever it is) a package test, with the class:
 
+{
 package test;
 
 public class Test {
@@ -27,8 +28,11 @@ public class Test {
     }
 
 }
+}
+
 Right-click on that class and select "Ast article: Move Declaration": see the source being instantly rewritten as:
 
+{
 package test;
 
 public class Test {
@@ -40,5 +44,5 @@ public class Test {
     }
 
 }
-
+}
 to know more about the AST's code, take a look at [this article](http://www.eclipse.org/articles/Article-JavaCodeManipulation_AST/) about the AST!
