@@ -32,7 +32,7 @@ Create in your imported project (whatever it is) a package test, with the class:
 
 Right-click on that class and select "Ast article: Move Declaration": see the source being instantly rewritten as:
 
-{
+
     
     package test;
     
@@ -45,6 +45,6 @@ Right-click on that class and select "Ast article: Move Declaration": see the so
         }
     
     }
-}
+
 
 to know more about the AST's code, take a look at [this article](http://www.eclipse.org/articles/Article-JavaCodeManipulation_AST/) about the AST!
