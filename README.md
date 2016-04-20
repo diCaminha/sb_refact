@@ -17,32 +17,33 @@ One last thing: create a Java Unit compilation able to highlights those variable
 Create in your imported project (whatever it is) a package test, with the class:
 
 {
-package test;
-
-public class Test {
-
-    static {
-    	int i = 2;
-    	System.out.println("test");
-    	System.out.println(i);
+    package test;
+    
+    public class Test {
+    
+        static {
+        	int i = 2;
+        	System.out.println("test");
+        	System.out.println(i);
+        }
+    
     }
-
-}
 }
 
 Right-click on that class and select "Ast article: Move Declaration": see the source being instantly rewritten as:
 
 {
-package test;
-
-public class Test {
-
-    static {
-    	System.out.println("test");
-    	int i = 2;
-    	System.out.println(i);
+    package test;
+    
+    public class Test {
+    
+        static {
+        	System.out.println("test");
+        	int i = 2;
+        	System.out.println(i);
+        }
+    
     }
+}
 
-}
-}
 to know more about the AST's code, take a look at [this article](http://www.eclipse.org/articles/Article-JavaCodeManipulation_AST/) about the AST!
