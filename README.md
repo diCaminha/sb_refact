@@ -4,8 +4,8 @@
 
 
 1. _git clone_ link of the project
-2. on eclipse, _import_ --> _existing projects into workspace_ --> then choose the project
-3. right click on the project and then choose _debug as_ --> _eclipse application_
+2. on eclipse, _import_ -> _existing projects into workspace_ -> then choose the project
+3. right click on the project and then choose _debug as_ -> _eclipse application_
 4. Once the second eclipse is launched, Import any project in that new workspace of that second eclipse instance (you can for instance create a new project example.)
 5. right-click on any class and see a custom entry in the contextual menu: "Ast article: Move Declaration" (the action to detect contradicting variable declarations and to move them to their correct place)
 
